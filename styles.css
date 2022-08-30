@@ -17,11 +17,46 @@
         margin: 10px;
         font-size: 100px;
     }
-    #push-btn, #unshift-btn {
-        background-color: #80D87F;
-    }  
-    #shift-btn,#pop-btn {
+    #push-btn{
+        background: #148a12;
+        cursor: pointer;
+        width: 15%;
+        padding: 10px;
+    }
+   #unshift-btn{
+    background: #E23349;
+    cursor: pointer;
+     }
+     #unshift-btn:active{
+    background: #148a12;
+    border: 1px solid white;
+     }
+     #push-btn:active{
+        background: #E23349;
+        border: 1px solid white;
+
+    } 
+
+
+    #shift-btn {
+        background-color: #148a12;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+    }
+    #shift-btn:active{
         background-color: #E23349;
+        border: 1px solid white;
+    }
+    #pop-btn{
+        background-color: #E23349;
+        cursor: pointer;
+        width: 120px;
+        height:  40px;
+    }
+    #pop-btn:active{
+        background: #148a12;  
+        border: 1px solid white;
     }
      input {
     border: none;
