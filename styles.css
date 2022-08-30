@@ -20,33 +20,29 @@
     #push-btn{
         background: #148a12;
         cursor: pointer;
-        width: 15%;
-        padding: 10px;
+        width: 120px;
+        height:  40px;
     }
    #unshift-btn{
-    background: #E23349;
+    background: #48d745;
+    width: 120px;
+    height:  40px;
     cursor: pointer;
      }
      #unshift-btn:active{
-    background: #148a12;
-    border: 1px solid white;
+    border: 2px solid yellow;
      }
      #push-btn:active{
-        background: #E23349;
-        border: 1px solid white;
-
+        border: 2px solid yellow;
     } 
-
-
     #shift-btn {
-        background-color: #148a12;
+        background-color: red;
         cursor: pointer;
         width: 130px;
         height: 40px;
     }
     #shift-btn:active{
-        background-color: #E23349;
-        border: 1px solid white;
+        border: 2px solid yellow;
     }
     #pop-btn{
         background-color: #E23349;
@@ -54,9 +50,8 @@
         width: 120px;
         height:  40px;
     }
-    #pop-btn:active{
-        background: #148a12;  
-        border: 1px solid white;
+    #pop-btn:active{  
+        border: 2px solid yellow;
     }
      input {
     border: none;
@@ -64,12 +59,14 @@
     background: white;
     border-radius: 6px;
     text-align: center;
+    margin-bottom: 20px;
+    width: 40%;
     }
     button {
     background: darkcyan;
     color: white;
     border: none;
-    padding: 4px 10px;
+    padding: 4px 20px;
     border-radius: 5px;
     margin: 8px 4px;
    }
